@@ -1,10 +1,10 @@
 import java.util.Stack;
 
-class MinStack {
+class minStack {
     private Stack<Integer> stack;
     private Stack<Integer> minStack;
 
-    public MinStack() {
+    public minStack() {
         stack = new Stack<>();
         minStack = new Stack<>();
     }
@@ -52,7 +52,7 @@ class MinStack {
      */
     public static void main(String[] args) {
         // MinStack 객체 생성
-        MinStack minStack = new MinStack();
+        minStack minStack = new minStack();
 
         // 푸시 동작
         System.out.println("Push 5:");
