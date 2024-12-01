@@ -1,4 +1,4 @@
-class Graph {
+class graph {
     int[][] edges = {
             {0, 1},
             {0, 2},
@@ -9,7 +9,7 @@ class Graph {
     int[][] adjMatrix = new int[numVertices][numVertices]; // 인접 행렬 초기화
 
     // 생성자에서 인접 행렬을 설정
-    public Graph() {
+    public graph() {
         for (int[] edge : edges) {
             int source = edge[0];
             int destination = edge[1];
@@ -30,7 +30,7 @@ class Graph {
     }
 
     public static void main(String[] args) {
-        Graph graph = new Graph(); // 그래프 생성
+        graph graph = new graph(); // 그래프 생성
         graph.printAdjMatrix(); // 인접 행렬 출력
     }
 }
